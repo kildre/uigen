@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "WebFetch(domain:ai-sdk.dev)",
+      "Bash(node:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm ls:*)",
+      "Bash(python3:*)",
+      "mcp__playwright",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot"
+    ],
+    "deny": []
+  }
+}
